@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MilkyWay-core" />
+        <module name="MilkyWay-system-cloud-api" />
+        <module name="MilkyWay-system-local-api" />
+        <module name="MilkyWay-tools" />
+        <module name="MilkyWay-system" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MilkyWay" options="" />
+      <module name="MilkyWay-api" options="-parameters" />
+      <module name="MilkyWay-core" options="-parameters" />
+      <module name="MilkyWay-system" options="-parameters" />
+      <module name="MilkyWay-system-cloud-api" options="-parameters" />
+      <module name="MilkyWay-system-local-api" options="-parameters" />
+      <module name="MilkyWay-tools" options="-parameters" />
+    </option>
+  </component>
+</project>
